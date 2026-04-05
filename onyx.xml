@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="ax" fetch="https://github.com/AxionAOSP-devices" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/onyx" name="android_kernel_xiaomi_onyx" remote="ax" revision="axion" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/onyx" name="android_vendor_xiaomi_onyx" remote="ax" revision="axion" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ax" revision="sixteen" />
+
+</manifest>
