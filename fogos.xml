@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="wkcw" fetch="https://github.com/WKCW-Project" clone-depth="1" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" clone-depth="1" />
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="wkcw" revision="lineage-23.2" />
+    <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="wkcw" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="wkcw" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/motorola/fogos" name="proprietary_vendor_motorola_fogos" remote="wkcw" revision="lineage-23.2" />
+    <project path="vendor/motorola/sm6375-common" name="proprietary_vendor_motorola_sm6375-common" remote="wkcw" revision="lineage-23.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="lineage" revision="lineage-23.2" />
+    <project path="hardware/samsung/slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="lineage" revision="lineage-23.2" />
+
+    <!-- Other Repos -->
+    <project path="packages/apps/DolbyAtmos" name="android_packages_apps_DolbyAtmos" remote="wkcw" />
+
+</manifest>
