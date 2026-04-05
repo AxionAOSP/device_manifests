@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!-- Remotes -->
+    <remote name="SenX-Project" fetch="https://github.com/SenX-Project" />
+    <remote name="extras" fetch="https://github.com/PocoF3Releases" />
+  
+    <!-- Device -->
+    <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="SenX-Project" revision="ax" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="SenX-Project" revision="16-qpr2" />
+    <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="SenX-Project" revision="vic" />
+    <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="SenX-Project" revision="vic" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/munch" name="xiaomi_sm8250_kernel_e404" remote="SenX-Project" revision="noksu" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="SenX-Project" revision="lineage-23.2" />
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="SenX-Project" revision="main" />
+
+    <!-- Extras -->
+    <remove-project path="packages/resources/devicesettings" />
+    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="extras" revision="aosp-16" />
+</manifest>
