@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : Realme GT Neo 3T (spartan) -->
+
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="ax"
+    fetch="https://github.com/AxionAOSP-devices"
+    revision="lineage-23.2" />
+    
+    <remote name="common"
+    fetch="https://github.com/SM8250-Common"
+    revision="lineage-23.2" />
+    
+    <remote name="bijoy"
+    fetch="https://gitlab.com/bijoyv9"
+    revision="lineage-23.2" />
+    
+    <!-- Device -->
+    <project path="device/realme/spartan" name="android_device_realme_spartan" remote="ax" />
+    <project path="device/realme/sm8250-common" name="android_device_realme_sm8250-common" remote="ax" />
+
+    <!-- Hardware -->
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="ax" />
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="common" />
+
+    <!-- Kernel -->
+    <project path="kernel/realme/sm8250" name="android_kernel_realme_sm8250" remote="ax" clone-depth="1" />
+
+    <!-- Packages -->
+    <project path="packages/apps/RealmeAddons" name="android_packages_apps_RealmeAddons" remote="common" />
+
+    <!-- Vendor -->
+    <project path="vendor/realme/spartan" name="proprietary_vendor_realme_spartan" remote="ax" />
+    <project path="vendor/realme/sm8250-common" name="proprietary_vendor_realme_sm8250-common" remote="ax" />
+    <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="bijoy" />
+
+</manifest>
