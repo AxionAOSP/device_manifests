@@ -1,17 +1,12 @@
-<!-- Devices: OnePlus SM8250 (instantnoodle / instantnoodlep / kebab / lemonades) -->
 <manifest>
 
-    <!-- Remotes -->
     <remote name="axion" fetch="https://github.com/AxionAOSP-devices" revision="lineage-23.2" />
     <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-23.2" />
     <remote name="extra" fetch="https://bitbucket.org/nameless-aosp" />
 
-    <!-- Device Trees -->
+    <!-- Device -->
     <project remote="axion" name="android_device_oneplus_instantnoodle" path="device/oneplus/instantnoodle" />
-    <project remote="axion" name="android_device_oneplus_instantnoodlep" path="device/oneplus/instantnoodlep" />
-    <project remote="axion" name="android_device_oneplus_kebab" path="device/oneplus/kebab" />
-    <project remote="axion" name="android_device_oneplus_lemonades" path="device/oneplus/lemonades" />
     <project remote="axion" name="android_device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" />
 
     <!-- Kernel -->
@@ -19,9 +14,6 @@
 
     <!-- Vendor -->
     <project remote="muppets" name="proprietary_vendor_oneplus_instantnoodle" path="vendor/oneplus/instantnoodle" />
-    <project remote="muppets" name="proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" />
-    <project remote="muppets" name="proprietary_vendor_oneplus_kebab" path="vendor/oneplus/kebab" />
-    <project remote="muppets" name="proprietary_vendor_oneplus_lemonades" path="vendor/oneplus/lemonades" />
     <project remote="axion" name="android_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" />
 
     <!-- Hardware -->
@@ -30,7 +22,7 @@
     <!-- Camera -->
     <project remote="extra" name="vendor_oneplus_camera" path="vendor/oneplus/camera" revision="fifteen" />
 
-    <!-- Audio replacement -->
-    <remove-project name="platform/hardware/qcom-caf/sm8250/audio" />
+    <!-- Audio fix -->
+    <remove-project path="hardware/qcom-caf/sm8250/audio" />
     <project remote="axion" name="android_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" />
 </manifest>
