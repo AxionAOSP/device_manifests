@@ -29,3 +29,5 @@
 <project path="vendor/motorola/cancunf-motcamera" name="vendor_motorola_cancunf-motcamera" remote="yaap" revision="sixteen" />
 
 <project path="packages/apps/DisplayFeatures" name="android_packages_apps_DisplayFeatures" remote="cyber" revision="master" />
+
+</manifest>
