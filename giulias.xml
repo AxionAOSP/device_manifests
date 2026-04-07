@@ -4,27 +4,31 @@
 <manifest>
 
 <!-- Remotes -->
-    <remote    name="genoxci"     fetch="https://github.com/Ace-5-Testing"   revision="16.2-axion"                      />
-    <remote    name="general"     fetch="https://github.com/Ace-5-Testing"   revision="16.2"                            />
+    <remote             name="genoxci"     fetch="https://github.com/Ace-5-Testing"   revision="16.2-axion"                      />
+    <remote             name="general"     fetch="https://github.com/Ace-5-Testing"   revision="16.2"                            />
 
 <!-- Specific Trees -->
-    <project   remote="genoxci"   name="device_oneplus_giuliac"              path="device/oneplus/giuliac"              />
-    <project   remote="genoxci"   name="device_oneplus_giulia"               path="device/oneplus/giulia"               />
+    <project            remote="genoxci"   name="device_oneplus_giuliac"              path="device/oneplus/giuliac"              />
+    <project            remote="genoxci"   name="device_oneplus_giulia"               path="device/oneplus/giulia"               />
 
 <!-- Common Trees -->
-    <project   remote="general"   name="vendor_oneplus_giuliac"              path="vendor/oneplus/giuliac"              />
-    <project   remote="general"   name="vendor_oneplus_giulia"               path="vendor/oneplus/giulia"               />
-    <project   remote="general"   name="device_oneplus_sm8650-common"        path="device/oneplus/sm8650-common"        />
-    <project   remote="general"   name="vendor_oneplus_sm8650-common"        path="vendor/oneplus/sm8650-common"        />
-    <project   remote="general"   name="kernel_oneplus_sm8650"               path="kernel/oneplus/sm8650"               />
-    <project   remote="general"   name="kernel_oneplus_sm8650-devicetrees"   path="kernel/oneplus/sm8650-devicetrees"   />
-    <project   remote="general"   name="kernel_oneplus_sm8650-modules"       path="kernel/oneplus/sm8650-modules"       />
-    <project   remote="general"   name="hardware_oplus"                      path="hardware/oplus"                      />
+    <project            remote="general"   name="vendor_oneplus_giuliac"              path="vendor/oneplus/giuliac"              />
+    <project            remote="general"   name="vendor_oneplus_giulia"               path="vendor/oneplus/giulia"               />
+    <project            remote="general"   name="device_oneplus_sm8650-common"        path="device/oneplus/sm8650-common"        />
+    <project            remote="general"   name="vendor_oneplus_sm8650-common"        path="vendor/oneplus/sm8650-common"        />
+    <project            remote="general"   name="kernel_oneplus_sm8650"               path="kernel/oneplus/sm8650"               />
+    <project            remote="general"   name="kernel_oneplus_sm8650-devicetrees"   path="kernel/oneplus/sm8650-devicetrees"   />
+    <project            remote="general"   name="kernel_oneplus_sm8650-modules"       path="kernel/oneplus/sm8650-modules"       />
+    <project            remote="general"   name="hardware_oplus"                      path="hardware/oplus"                      />
 
 <!-- Extras -->
-    <project   remote="general"   name="packages_apps_GameBar"               path="packages/apps/GameBar"               />
-    <project   remote="general"   name="vendor_oneplus_ir"                   path="vendor/oneplus/ir"                   />
-    <project   remote="general"   name="vendor_sony_dolby"                   path="vendor/sony/dolby"                   />
-    <project   remote="general"   name="packages_apps_LunarisDolby"          path="packages/apps/LunarisDolby"          />
+    <project            remote="general"   name="packages_apps_GameBar"               path="packages/apps/GameBar"               />
+    <project            remote="general"   name="vendor_oneplus_ir"                   path="vendor/oneplus/ir"                   />
+    <project            remote="general"   name="vendor_sony_dolby"                   path="vendor/sony/dolby"                   />
+    <project            remote="general"   name="packages_apps_LunarisDolby"          path="packages/apps/LunarisDolby"          />
+
+<!-- Overrides -->
+    <remove-project                                                                   path="vendor/qcom/opensource/vibrator"     />
+    <project            remote="general"   name="vendor_qcom_opensource_vibrator"     path="vendor/qcom/opensource/vibrator"     />
 
 </manifest>
