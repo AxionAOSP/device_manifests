@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : Redmi Note 7 Pro (violet) -->
+<manifest>
+    <!-- fetching sources -->
+    <remote name="ax-devices" fetch="https://github.com/AxionAOSP-devices" revision="lineage-23.2" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
+    <remote name="joker" fetch="https://github.com/Joker-V2" revision="lineage-23.2" />
+
+    <!-- Device -->
+    <project remote="ax-devices" name="android_device_xiaomi_violet" path="device/xiaomi/violet" />
+
+    <!-- Kernel -->
+    <project remote="joker" name="kernel_xiaomi_violet" path="kernel/xiaomi/violet" revision="sixteen" />
+
+    <!-- Vendor -->
+    <project remote="ax-devices" name="android_vendor_xiaomi/violet" path="vendor/xiaomi/violet" />
+
+    <!-- Hardware -->
+    <project remote="lineage" name="android_hardware_xiaomi" path="hardware/xiaomi" />
+    <project remote="joker" name="android_hardware_dolby" path="hardware/dolby" revision="16.2" />
+</manifest>
