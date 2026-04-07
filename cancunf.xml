@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="notayan"
+	    fetch="https://github.com/not-ayan"
+	    clone-depth="1" />
+  <remote name="sarthak"
+	    fetch="https://github.com/sarthakroy2002"
+	    clone-depth="1" />
+  <remote name="yaap"
+	    fetch="https://github.com/yaap"
+	    clone-depth="1" />
+  <remote name="cyber"
+	    fetch="https://github.com/cyberknight777"
+	    clone-depth="1" />
+  
+
+<!-- Device,kernel,vendor -->
+<project path="device/motorola/cancunf" name="device_motorola_cancunf" remote="notayan" revision="sixteen-qpr2" />
+
+<project path="vendor/motorola/cancunf" name="vendor_motorola_cancunf" remote="sarthak" revision="sixteen-qpr2" />
+
+<project path="device/motorola/cancunf-kernel" name="device_motorola_cancunf-kernel" remote="sarthak" revision="sixteen-qpr2" />
+
+<!-- Camera, sepolicy, vendor,hw  -->
+<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="yaap" revision="sixteen" />
+
+<project path="hardware/mediatek" name="hardware_mediatek" remote="yaap" revision="sixteen" />
+
+<project path="vendor/motorola/cancunf-motcamera" name="vendor_motorola_cancunf-motcamera" remote="yaap" revision="sixteen" />
+
+<project path="packages/apps/DisplayFeatures" name="android_packages_apps_DisplayFeatures" remote="cyber" revision="master" />
