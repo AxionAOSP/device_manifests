@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="MillenniumOSS"
+	    fetch="https://github.com/MillenniumOSS"
+	    clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="axion-16.2" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen-axion" />
+
+ <!-- Kernel -->
+ <project path="device/tecno/LG8n-kernel" name="android_device_tecno_LG8n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+ <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
+
+ <!--Vendor -->
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="MillenniumOSS" revision="sixteen-bp3a" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="MillenniumOSS" revision="bka" />
+
+ <!--JamesDSP -->
+ <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Remove Projects -->
+ <remove-project path="packages/apps/Aperture" />
+
+ <!-- Device Support stuffs -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+ <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-oem" />
+ <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="MillenniumOSS" revision="lineage-23.2" />
+</manifest>
