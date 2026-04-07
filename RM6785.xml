@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Device : Realme RM6785 (Realme 6/6i/6s/7/Narzo/Narzo 20p/Narzo 304G) -->
+<manifest>
+    <!-- Remotes -->
+    <remote name="gh" fetch="https://github.com/" />
+    <remote name="cb" fetch="https://codeberg.org/" />
+
+    <!-- Device / Kernel -->
+    <project path="device/realme/RM6785" name="AxionAOSP-devices/android_device_realme_RM6785" remote="gh" revision="lineage-23.2" />
+    <project path="kernel/realme/RM6785" name="elohim-etz/android_kernel_realme_mt6785" remote="gh" revision="saxion" clone-depth="1" />
+
+    <!-- Proprietary Vendor -->
+    <project path="vendor/realme/RM6785" name="elohim-etz/android_vendor_realme_RM6785" remote="gh" revision="bka-qpr2" clone-depth="1" />
+
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy_vndr" name="elohim-etz/device_mediatek_sepolicy_vndr" remote="cb" revision="elohim" />
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="elohim-etz/hardware_mediatek" remote="cb" revision="elohim" />
+    <project path="hardware/dolby" name="elohim-etz/hardware_dolby_sony" remote="gh" revision="sony-1.5" clone-depth="1" />
+
+    <!-- Replace hardware/lineage/compat -->
+    <remove-project path="hardware/lineage/compat" />
+    <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="gh" revision="lineage-23.2" />
+</manifest>
