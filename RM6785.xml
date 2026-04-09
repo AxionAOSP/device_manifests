@@ -7,7 +7,7 @@
 
     <!-- Device / Kernel -->
     <project path="device/realme/RM6785" name="AxionAOSP-devices/android_device_realme_RM6785" remote="gh" revision="lineage-23.2" />
-    <project path="kernel/realme/RM6785" name="elohim-etz/android_kernel_realme_mt6785" remote="gh" revision="saxion" clone-depth="1" />
+    <project path="kernel/realme/mt6785" name="elohim-etz/android_kernel_realme_mt6785" remote="gh" revision="saxion" clone-depth="1" />
 
     <!-- Proprietary Vendor -->
     <project path="vendor/realme/RM6785" name="elohim-etz/android_vendor_realme_RM6785" remote="gh" revision="bka-qpr2" clone-depth="1" />
