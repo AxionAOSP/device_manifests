@@ -28,7 +28,9 @@
     <project            remote="general"   name="packages_apps_LunarisDolby"          path="packages/apps/LunarisDolby"          />
 
 <!-- Overrides -->
+    <remove-project                                                                   path="hardware/qcom-caf/sm8650/display"    />
     <remove-project                                                                   path="vendor/qcom/opensource/vibrator"     />
+    <project            remote="general"   name="hardware_qcom-caf_sm8650_display"    path="hardware/qcom-caf/sm8650/display"    />
     <project            remote="general"   name="vendor_qcom_opensource_vibrator"     path="vendor/qcom/opensource/vibrator"     />
 
 </manifest>
