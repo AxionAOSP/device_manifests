@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="NullDebris"
+	    fetch="https://github.com/NullDebris"
+	    clone-depth="1" />
+
+    <remote name="jh3"
+	    fetch="https://github.com/joshuah345"
+	    clone-depth="1" />
+
+    <remote name="jh3-gl"
+	    fetch="https://gitlab.com/joshuah345"
+	    clone-depth="1" />
+
+    <remote name="los"
+	    fetch="https://github.com/LineageOS"
+	    clone-depth="1" />
+
+    <!-- Device -->
+    <project path="device/nothing/Pong" name="android_device_nothing_Pong" remote="jh3" revision="axion-16.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/nothing/sm8475" name="android_kernel_nothing_sm8475" remote="los" revision="lineage-23.2" />
+    <project path="kernel/nothing/sm8475-modules" name="android_kernel_nothing_sm8475-modules" remote="jh3" revision="lineage-23.2" />
+    <project path="kernel/nothing/sm8475-devicetrees" name="android_kernel_nothing_sm8475-devicetrees" remote="los" revision="lineage-23.2" />
+
+    <!--Vendor -->
+    <project path="vendor/nothing/Pong" name="proprietary_vendor_nothing_Pong" remote="jh3-gl" revision="lineage-23.2" />
+
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="hardware_dolby" remote="NullDebris" revision="lunaris" />
+
+    <!-- Glyph -->
+    <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="NullDebris" revision="lineage-23.1" />
+    <project path="packages/apps/GlyphAdapter" name="packages_apps_GlyphAdapter" remote="NullDebris" revision="15" />
+
+</manifest>
