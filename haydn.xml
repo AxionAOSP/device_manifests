@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="Never-Alive" fetch="https://github.com/Never-Alive" clone-depth="1" />
+    <remote name="swiitch-OFF-Lab" fetch="https://github.com/swiitch-OFF-Lab" clone-depth="1" />
+    <remote name="Lucifer-Alive" fetch="https://gitlab.com/Lucifer-Alive" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/haydn" name="device_xiaomi_haydn" remote="Never-Alive" revision="ax" />
+
+    <!-- Device - Common -->
+    <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="Never-Alive" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8350" name="zorix_xiaomi_sm8350" remote="Never-Alive" revision="stable" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/haydn" name="vendor_xiaomi_haydn" remote="Never-Alive" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/haydn-firmware" name="vendor_xiaomi_haydn-firmware" remote="Never-Alive" revision="global" />
+    <project path="vendor/xiaomi/miuicamera-haydn" name="vendor-xiaomi-miuicamera-haydn" remote="Lucifer-Alive" revision="16.0" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="Never-Alive" revision="lineage-23.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/dolby" name="hardware_dolby" remote="Never-Alive" revision="sony-1.5" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
+
+    <!-- Other Repos -->
+    <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="swiitch-OFF-Lab" revision="16.0" />
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Never-Alive" revision="lineage-23.2" />
+
+</manifest>
