@@ -16,4 +16,5 @@
 <!-- Hardware -->
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Amrito" revision="android-16" />
         <project path="hardware/dolby" name="hardware_dolby" remote="Amrito" revision="android-16" />
+        <project path="hardware/qcom-caf/sdm660/camera" name="hardware_qcom_camera" remote="Amrito" revision="16" />
  </manifest>
