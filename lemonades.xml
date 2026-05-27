@@ -3,7 +3,7 @@
     <remote name="ax" fetch="https://github.com/AxionAOSP-devices" revision="lineage-23.2" />
     <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
     <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-23.2" />
-    <remote name="extra" fetch="https://bitbucket.org/nameless-aosp" />
+    <remote name="extra" fetch="https://github.com/PixelOS-OnePlus-8T-Kebab" />
 
     <!-- Device -->
     <project remote="ax" name="android_device_oneplus_lemonades" path="device/oneplus/lemonades" />
