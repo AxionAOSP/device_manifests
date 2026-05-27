@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="blzeee" 
-        fetch="https://github.com/NotBlazeee28" 
-        revision="lineage-23.2" 
-        clone-depth="1" />
+    <!-- Remotes -->
+    <remote name="zenin"
+            fetch="https://github.com/sm8635-dev"
+            clone-depth="1" />
 
-    <!-- Device -->
-    <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="blzeee" />
+    <remote name="gitlab-zenin"
+            fetch="https://gitlab.com/sm8635-dev"
+            clone-depth="1" />
 
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="blzeee" />
+    <!-- Device Tree -->
+    <project path="device/xiaomi/peridot"
+             name="device_xiaomi_peridot"
+             remote="zenin"
+             revision="lineage-23.2" />
 
-    <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8635" name="kernel_xiaomi_sm8635" remote="blzeee" />
-    <project path="kernel/xiaomi/sm8635-modules" name="kernel_xiaomi_sm8635-modules" remote="blzeee" />
-    <project path="kernel/xiaomi/sm8635-devicetrees" name="kernel_xiaomi_sm8635-devicetrees" remote="blzeee" />
+    <!-- Kernel Source -->
+    <project path="kernel/xiaomi/sm8635"
+             name="kernel_xiaomi_sm8635"
+             remote="zenin"
+             revision="lineage-23.2" />
 
-    <!-- Vendor -->
-    <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="blzeee" />
+    <project path="kernel/xiaomi/sm8635-devicetrees"
+             name="kernel_xiaomi_sm8635-devicetrees"
+             remote="zenin"
+             revision="lineage-23.2" />
+
+    <project path="kernel/xiaomi/sm8635-modules"
+             name="kernel_xiaomi_sm8635-modules"
+             remote="zenin"
+             revision="lineage-23.2" />
+
+    <!-- Vendor Blobs -->
+    <project path="vendor/xiaomi/peridot"
+             name="vendor_xiaomi_peridot"
+             remote="gitlab-zenin"
+             revision="lineage-23.2" />
+
+    <!-- HALs and Policies -->
+    <project path="hardware/xiaomi"
+             name="hardware_xiaomi"
+             remote="zenin"
+             revision="lineage-23.2" />
 
 </manifest>
