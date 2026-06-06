@@ -11,7 +11,7 @@
     <project remote="ax-devices" name="android_device_xiaomi_violet" path="device/xiaomi/violet" />
 
     <!-- Kernel -->
-    <project remote="joker" name="kernel_xiaomi_violet" path="kernel/xiaomi/violet" revision="sixteen" />
+    <project remote="ax-devices" name="android_kernel_xiaomi_violet" path="kernel/xiaomi/violet" />
 
     <!-- Vendor -->
     <project remote="ax-devices" name="android_vendor_xiaomi_violet" path="vendor/xiaomi/violet" />
