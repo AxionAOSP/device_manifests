@@ -7,12 +7,12 @@
     <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/onyx" name="android_kernel_xiaomi_onyx" remote="ax" revision="axion" />
+    <project path="device/xiaomi/onyx-kernel" name="android_kernel_xiaomi_onyx" remote="ax" revision="lineage-23.2" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/onyx" name="android_vendor_xiaomi_onyx" remote="ax" revision="axion" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ax" revision="sixteen" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ax" revision="lineage-23.2" />
 
 </manifest>
