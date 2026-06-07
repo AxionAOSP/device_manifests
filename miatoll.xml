@@ -1,0 +1,34 @@
+<!-- Device : POCO M2 Pro / Redmi Note 9S / 9 Pro / 9 Pro Max / 10 Lite (miatoll) -->
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="github" 
+            fetch="https://github.com" />
+
+    <remote name="gitlab" 
+            fetch="https://gitlab.com" />
+    
+    <remote name="xiaomi-sm6250" 
+            fetch="git@github.com:xiaomi-sm6250" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="xiaomi-sm6250" revision="lineage-23.2" />
+
+    <!-- Dolby -->
+    <project path="vendor/xiaomi/dolby" name="NoPrincessHere/proprietary_vendor_oneplus_dolby" remote="gitlab" revision="sixteen-qpr2" clone-depth="1" />
+    <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" revision="sixteen-qpr2" clone-depth="1" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+    <project path="hardware/sony/timekeep" name="hardware_sony_timekeep" remote="xiaomi-sm6250" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="xiaomi-sm6250" revision="lineage-23.2" clone-depth="1" />
+
+    <!-- Miui Camera -->
+    <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="xiaomi-sm6250" revision="16" clone-depth="1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="xiaomi-sm6250" revision="lineage-23.2" clone-depth="1" />
+
+</manifest>
