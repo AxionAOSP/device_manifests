@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="pablo" fetch="https://github.com/aosp-pablo" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/marble" name="device_xiaomi_marble" remote="pablo" revision="axion" />
+    <project path="device/xiaomi/sm8450-common" name="device_xiaomi_sm8450-common" remote="pablo" revision="16" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/marble" name="vendor_xiaomi_marble" remote="pablo" revision="16" />
+    <project path="vendor/xiaomi/sm8450-common" name="vendor_xiaomi_sm8450-common" remote="pablo" revision="16" />
+
+    <!-- MIUI Camera -->
+    <project path="device/xiaomi/miuicamera-marble" name="device_xiaomi_miuicamera-marble" remote="pablo" revision="16" />
+    <project path="vendor/xiaomi/miuicamera-marble" name="vendor_xiaomi_miuicamera-marble" remote="pablo" revision="16" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pablo" revision="lineage-23.0" />
+
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="hardware_dolby" remote="pablo" revision="xiaomi-blobs" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8450" name="android_kernel_xiaomi_sm8450" remote="pablo" revision="16" />
+    <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="pablo" revision="16" />
+    <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="pablo" revision="16" />
+
+    <!-- GameBar -->
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="pablo" revision="16" />
+
+</manifest>
