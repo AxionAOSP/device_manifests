@@ -15,4 +15,8 @@
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ax" revision="lineage-23.2" />
 
+    <!-- MiuiCamera -->
+    <project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="ax" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="ax" revision="sixteen-qpr2" />
+
 </manifest>
