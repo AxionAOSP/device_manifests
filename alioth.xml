@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="Meow-prjkt" fetch="https://github.com/Meow-prjkt" />
+    <remote name="extras" fetch="https://gitlab.com/johnmart19" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="Meow-prjkt" revision="16-ax" />
+    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/alioth" name="android_vendor_xiaomi_alioth" remote="Meow-prjkt" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- MIUI Camera -->
+    <project path="device/xiaomi/camera" name="android_device_xiaomi_camera" remote="Meow-prjkt" revision="lineage-23.0" />
+    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="extras" revision="aosp-16" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- GameBar -->
+    <project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="Meow-prjkt" revision="lineage-23.2" />
+
+    <!-- Extras -->
+    <remove-project path="packages/resources/devicesettings" />
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Meow-prjkt" revision="lineage-23.2" />
+
+</manifest>
