@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : Oneplus Nord (avicii) -->
+
+<manifest>
+    <!-- Remotes -->
+    <remote name="ax" fetch="https://github.com/AxionAOSP-devices/" />
+    <remote name="gh" fetch="https://github.com/sreeshankark/" />
+    <remote name="cb" fetch="https://codeberg.org/sreeshankark/" />
+
+    <!-- Device -->
+    <project path="device/oneplus/avicii" name="android_device_oneplus_avicii" remote="ax" />
+    
+    <!-- Kernel -->
+    <project path="kernel/oneplus/avicii" name="android_kernel_oneplus_avicii" remote="ax" clone-depth="1" />
+    
+    <!-- Vendor -->
+    <project path="vendor/oneplus/avicii" name="android_vendor_oneplus_avicii" remote="ax" clone-depth="1" />
+    
+    <!-- Firmware -->
+    <project path="vendor/oneplus/firmware" name="android_vendor_oneplus_firmware" remote="cb" clone-depth="1" />
+    
+    <!-- OEM Camera -->
+    <project path="vendor/oneplus/camera" name="android_vendor_oneplus_camera" remote="cb" clone-depth="1" />
+    
+    <!-- Dolby Atmos -->
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="gh" revision="sony-1.2" clone-depth="1" />
+</manifest>
