@@ -11,6 +11,9 @@
     <project path="vendor/xiaomi/marble" name="vendor_xiaomi_marble" remote="pablo" revision="16" />
     <project path="vendor/xiaomi/sm8450-common" name="vendor_xiaomi_sm8450-common" remote="pablo" revision="16" />
 
+    <!-- Firmware -->
+    <project path="vendor/xiaomi/marble-firmware" name="vendor_xiaomi_marble-firmware" remote="pablo" revision="16" />
+
     <!-- MIUI Camera -->
     <project path="device/xiaomi/miuicamera-marble" name="device_xiaomi_miuicamera-marble" remote="pablo" revision="16" />
     <project path="vendor/xiaomi/miuicamera-marble" name="vendor_xiaomi_miuicamera-marble" remote="pablo" revision="16" />
