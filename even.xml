@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- Device : Realme even -->
 <manifest>
-
     <!-- Remotes -->
-    <remote name="github" fetch="https://github.com" clone-depth="1" />
+    <remote name="badmaneers" fetch="https://github.com/Badmaneers" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" />
+    <remote name="techyminati" fetch="https://github.com/techyminati" />
 
-    <!-- Repos -->
-    <!-- Device -->
-    <project path="device/realme/even" name="Badmaneers/device_realme_even_rui4" remote="gh" revision="axion" />
+    <!-- Device / Kernel -->
+    <project path="device/realme/even" name="device_realme_even_rui4" remote="badmaneers" revision="axion" />
+    <project path="kernel/realme/even" name="zenium_realme_even" remote="badmaneers"
+        revision="axion" clone-depth="1" />
 
-    <!-- Kernel -->
-    <project path="kernel/realme/even" name="Badmaneers/zenium_realme_even" remote="gh" revision="rui4-clean" />
-
-    <!-- Vendor -->
-    <project path="vendor/realme/even" name="Badmaneers/vendor_realme_even_rui4" remote="gh" revision="los-23.2" />
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-23.2" />
 
     <!-- Hardware -->
-    <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-23.2" />
-    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-23.2" />
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage" revision="lineage-23.2" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-23.2" />
 
-    <!-- Other Repos -->
-    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-23.2" />
+    <!-- IMS -->
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="techyminati" revision="axion" />
 
+    <!-- Proprietary vendor -->
+    <project path="vendor/realme/even" name="vendor_realme_even_rui4" remote="badmaneers"
+        revision="los-23.2" clone-depth="1" />
 </manifest>
