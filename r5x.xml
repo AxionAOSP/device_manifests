@@ -10,7 +10,8 @@
 
     
 <!-- device trees -->
-        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amrito" />
-        <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="Amrito" clone-depth="1" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amrito" clone-depth="1" />
+        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amrito" revision="android-16" />
+        <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="Amrito" clone-depth="1" revision="android-16" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amrito" clone-depth="1" revision="android-16" />
+        <project path="hardware/egistec/fingerprint" name="hardware_egistec_fingerprint" remote="Amrito" revision="main" />
  </manifest>

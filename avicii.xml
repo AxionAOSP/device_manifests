@@ -22,7 +22,4 @@
     
     <!-- OEM Camera -->
     <project path="vendor/oneplus/camera" name="android_vendor_oneplus_camera" remote="cb" revision="16" clone-depth="1" />
-    
-    <!-- Dolby Atmos -->
-    <project path="hardware/dolby" name="android_hardware_dolby" remote="gh" revision="sony-1.2" clone-depth="1" />
 </manifest>
