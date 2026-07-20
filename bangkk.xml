@@ -25,8 +25,11 @@
 
     <!-- Hardware dolby -->
     <project path="hardware/dolby" name="hardware_dolby" remote="bangkk" revision="lineage-23.2" />
-
+    
     <!-- Hardware nfc -->
     <project path="hardware/samsung/slsi/nfc" name="hardware_samsung_slsi_nfc" remote="bangkk" revision="lineage-23.2" />
+    
+    <!-- GameBar -->
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="bangkk" revision="lineage-23.2" />
     
 </manifest>
