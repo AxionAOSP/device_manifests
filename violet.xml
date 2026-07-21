@@ -15,8 +15,9 @@
 
     <!-- Vendor -->
     <project remote="ax-devices" name="android_vendor_xiaomi_violet" path="vendor/xiaomi/violet" />
+    <project remote="joker" name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="lineage-23.2" />
+    <project remote="joker" name="vendor_oneplus_dolby" path="packages/apps/DolbyAtmos" revision="app" />
 
     <!-- Hardware -->
     <project remote="lineage" name="android_hardware_xiaomi" path="hardware/xiaomi" />
-    <project remote="joker" name="android_hardware_dolby" path="hardware/dolby" revision="16.2" />
 </manifest>
