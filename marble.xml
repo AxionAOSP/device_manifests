@@ -29,7 +29,4 @@
     <project path="kernel/xiaomi/sm8450-modules" name="android_kernel_xiaomi_sm8450-modules" remote="pablo" revision="16" />
     <project path="kernel/xiaomi/sm8450-devicetrees" name="android_kernel_xiaomi_sm8450-devicetrees" remote="pablo" revision="16" />
 
-    <!-- GameBar -->
-    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="pablo" revision="16" />
-
 </manifest>
