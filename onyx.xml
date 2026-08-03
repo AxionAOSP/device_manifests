@@ -4,13 +4,15 @@
     <remote name="ax" fetch="https://github.com/AxionAOSP-devices" />
 
     <!-- Device -->
-    <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion" />
+    <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion-new" />
 
     <!-- Kernel -->
-    <project path="device/xiaomi/onyx-kernel" name="android_kernel_xiaomi_onyx" remote="ax" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm8735" name="android_kernel_xiaomi_sm8735" remote="ax" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm8735-devicetrees" name="android_kernel_xiaomi_sm8735-devicetrees" remote="ax" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/sm8735-modules" name="android_kernel_xiaomi_sm8735-modules" remote="ax" revision="lineage-23.2" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/onyx" name="android_vendor_xiaomi_onyx" remote="ax" revision="axion" />
+    <project path="vendor/xiaomi/onyx" name="android_vendor_xiaomi_onyx" remote="ax" revision="axion-new" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ax" revision="lineage-23.2" />
