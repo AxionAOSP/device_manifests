@@ -1,0 +1,25 @@
+<manifest>
+    <!-- Remotes -->
+    <remote name="ax" fetch="https://github.com/AxionAOSP-devices" />
+    <remote name="motorola" fetch="https://github.com/sm6435-resources" />
+
+    <!-- Device -->
+    <project path="device/motorola/mumba"
+        name="android_device_motorola_mumba"
+        remote="ax" revision="axion-qpr2" />
+
+    <!-- Prebuilt Kernel -->
+    <project path="device/motorola/mumba-kernel"
+        name="android_device_motorola_mumba-kernel"
+        remote="ax" revision="axion-qpr2" />
+
+    <!-- Hardware -->
+    <project path="hardware/motorola"
+        name="android_hardware_motorola"
+        remote="motorola" revision="lineage-23.2" />
+
+    <!-- Proprietary Vendor -->
+    <project path="vendor/motorola/mumba"
+        name="android_vendor_motorola_mumba"
+        remote="motorola" revision="lineage-23.2" />
+</manifest>
