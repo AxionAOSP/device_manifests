@@ -4,7 +4,7 @@
     <remote name="ax" fetch="https://github.com/AxionAOSP-devices" />
 
     <!-- Device -->
-    <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion-new" />
+    <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="ax" revision="axion" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8735" name="android_kernel_xiaomi_sm8735" remote="ax" revision="lineage-23.2" />
