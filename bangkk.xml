@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
-    <remote name="bangkk" fetch="https://github.com/zedisspp" clone-depth="1" />
+    <!-- MotoCam -->
+    <remote
+        name="gitlab-deivid"
+        fetch="https://gitlab.com/Deivid21/" clone-depth="1" />
 
+    <!-- Bangkk -->
+    <remote name="bangkk" fetch="https://github.com/zedisspp" clone-depth="1" />
+    
     <!-- Repos -->
     <!-- Device -->
     <project path="device/motorola/bangkk" name="device_motorola_bangkk" remote="bangkk" revision="lineage-23.2" />
@@ -24,12 +29,68 @@
     <project path="hardware/motorola" name="hardware_motorola" remote="bangkk" revision="lineage-23.2" />
 
     <!-- Hardware dolby -->
-    <project path="hardware/dolby" name="hardware_dolby" remote="bangkk" revision="lineage-23.2" />
+    <project path="hardware/dolby" name="hardware_dolby" remote="bangkk" revision="main" />
     
     <!-- Hardware nfc -->
     <project path="hardware/samsung/slsi/nfc" name="hardware_samsung_slsi_nfc" remote="bangkk" revision="lineage-23.2" />
-    
+
     <!-- GameBar -->
-    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="bangkk" revision="lineage-23.2" />
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="bangkk" revision="main" />
+    
+    <!-- MotoCam sm6375 -->
+    <project
+    name="proprietary_vendor_motorola_MotCamera4-sm6375"
+    path="vendor/motorola/MotCamera4-sm6375"
+    remote="gitlab-deivid"
+    revision="android-16" />
+
+    <!-- MotoCam Common -->
+    <project
+    name="proprietary_vendor_motorola_MotCamera-common"
+    path="vendor/motorola/MotCamera-common"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoCam Photo editor -->
+    <project
+    name="proprietary_vendor_motorola_MotoPhotoEditor"
+    path="vendor/motorola/MotoPhotoEditor"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoCam2AI -->
+    <project
+    name="proprietary_vendor_motorola_MotCamera2AI"
+    path="vendor/motorola/MotCamera2AI"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoCam3AI Bengal -->
+    <project
+    name="proprietary_vendor_motorola_MotCamera3AI-sm6375"
+    path="vendor/motorola/MotCamera3AI-sm6375"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoCamAI Common -->
+    <project
+    name="proprietary_vendor_motorola_MotCameraAI-common"
+    path="vendor/motorola/MotCameraAI-common"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoSignatureApp -->
+    <project
+    name="proprietary_vendor_motorola_MotoSignatureApp"
+    path="vendor/motorola/MotoSignatureApp"
+    remote="gitlab-deivid"
+    revision="android-16" />
+    
+    <!-- MotoSettingsProvider -->
+    <project
+    name="proprietary_vendor_motorola_MotorolaSettingsProvider"
+    path="vendor/motorola/MotorolaSettingsProvider"
+    remote="gitlab-deivid"
+    revision="android-16" />
     
 </manifest>
