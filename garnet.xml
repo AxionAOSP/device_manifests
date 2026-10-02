@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : Redmi Note 13 Pro / Poco X6 5G (garnet) -->
+
+<manifest>
+  <remote name="project-sm7435" fetch="https://github.com/project-sm7435/" />
+  <remote name="ZetyaWyn" fetch="https://github.com/ZetyaWyn/" />
+
+  <!-- Device tree -->
+  <project path="device/xiaomi/garnet" name="device_xiaomi_garnet" remote="project-sm7435" revision="Axion" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/xiaomi/garnet" name="vendor_xiaomi_garnet" remote="project-sm7435" revision="16.2" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm7435" name="android_kernel_xiaomi_sm7435" remote="project-sm7435" revision="16.2" />
+
+  <!-- Kernel modules -->
+  <project path="kernel/xiaomi/sm7435-modules" name="android_kernel_xiaomi_sm7435-modules" remote="project-sm7435" revision="lineage-23.2" />
+
+  <!-- Kernel device trees -->
+  <project path="kernel/xiaomi/sm7435-devicetrees" name="android_kernel_xiaomi_sm7435-devicetrees" remote="project-sm7435" revision="lineage-23.2" />
+
+  <!-- Camera -->
+  <project path="vendor/xiaomi/garnet-miuicamera" name="vendor_xiaomi_garnet-miuicamera" remote="ZetyaWyn" revision="Leica" />
+  <project path="device/xiaomi/garnet-miuicamera" name="device_xiaomi_garnet-miuicamera" remote="ZetyaWyn" revision="Leica" />
+
+  <!-- Dolby -->
+  <project path="hardware/dolby" name="hardware_dolby" remote="project-sm7435" revision="16.2" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="project-sm7435" revision="lineage-23.2" />
+
+</manifest>
