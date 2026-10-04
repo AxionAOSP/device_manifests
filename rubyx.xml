@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="rajdeep" fetch="https://github.com/rajdeep-3305" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/rubyx" name="device_xiaomi_rubyx" remote="rajdeep" revision="lineage-23.2-ax" />
+    <project path="device/xiaomi/miuicamera-rubyx" name="device_xiaomi_miuicamera-rubyx" remote="rajdeep" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/rubyx" name="vendor_xiaomi_rubyx" remote="rajdeep" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/miuicamera-rubyx" name="vendor_xiaomi_miuicamera-rubyx" remote="rajdeep" revision="lineage-24.0" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="rajdeep" revision="lineage-23.2" />
+    <project path="vendor/lineage-priv/keys" name="ax-priv-keys" remote="rajdeep" revision="master" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="rajdeep" revision="lineage-23.2" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="rajdeep" revision="lineage-23.2" />
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="rajdeep" revision="lineage-23.2" />
+
+    <!-- Sepolicy -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="rajdeep" revision="lineage-23.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/mt6877" name="kernel_xiaomi_mt6877" remote="rajdeep" revision="lineage-23.2" clone-depth="1" />
+
+</manifest>
+
