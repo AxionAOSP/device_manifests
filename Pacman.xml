@@ -2,6 +2,7 @@
     <!-- Remotes -->
     <remote name="ax" fetch="https://github.com/AxionAOSP-devices" />
     <remote name="dd" fetch="https://github.com/DarkDolphin1" />
+    <remote name="dd-gitlab" fetch="https://gitlab.com/shravanrajapure1" />
     <remote name="lineage" fetch="https://github.com/lineageos" />
     <remote name="pong-dev" fetch="https://github.com/Pong-Development" />
     <remote name="org-github" fetch="https://github.com/Nothing-2A" />
@@ -14,7 +15,7 @@
     <!-- Prebuilt Kernel -->
     <project path="device/nothing/Aerodactyl-kernel"
         name="android_device_nothing_Aerodactyl-kernel"
-        remote="org-github" revision="lineage-23.2" />
+        remote="ax" revision="lineage-23.2" />
 
     <!-- Sepolicy -->
     <project path="device/mediatek/sepolicy_vndr"
@@ -26,10 +27,14 @@
         name="android_hardware_mediatek"
         remote="lineage" revision="lineage-23.2" />
 
+    <project path="hardware/nothing"
+        name="android_hardware_nothing"
+        remote="org-github" revision="lineage-23.2" />
+
     <!-- Proprietary Vendor -->
     <project path="vendor/nothing/Aerodactyl"
-        name="proprietary_vendor_nothing_Aerodactyl"
-        remote="org-gitlab" revision="lineage-23.2" />
+        name="vendor_nothing_Aerodactyl"
+        remote="dd-gitlab" revision="lineage-23.2" />
 
     <project path="vendor/nothing/Pacman"
         name="proprietary_vendor_nothing_Pacman"
@@ -37,7 +42,7 @@
 
     <!-- Glyph -->
     <project path="packages/apps/ParanoidGlyph"
-        name="android_packages_apps_ParanoidGlyph"
+        name="packages_apps_ParanoidGlyph"
         remote="dd" revision="lineage-23.1" />
 
     <project path="packages/apps/GlyphAdapter"
