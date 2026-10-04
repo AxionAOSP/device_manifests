@@ -10,7 +10,7 @@
     
 <!-- device trees -->
         <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Amrito" revision="android-16" />
-        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Amrito" revision="android-16" clone-depth="1" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660_southwest-ng" remote="Amrito" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Amrito" revision="android-16" clone-depth="1" />
 
 <!-- Hardware -->
