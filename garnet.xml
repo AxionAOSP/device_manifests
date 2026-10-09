@@ -31,4 +31,10 @@
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="project-sm7435" revision="lineage-23.2" />
 
+  <!-- Remove Axion's original common device tree -->
+  <remove-project path="device/axion/common" />
+
+  <!-- Custom Axion common device tree -->
+  <project path="device/axion/common" name="android_device_axion_common" remote="project-sm7435" revision="lineage-23.2" />
+
 </manifest>
