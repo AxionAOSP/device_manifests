@@ -4,6 +4,7 @@
     <remote name="badmaneers" fetch="https://github.com/Badmaneers" />
     <remote name="lineage" fetch="https://github.com/LineageOS" />
     <remote name="techyminati" fetch="https://github.com/techyminati" />
+    <remote name="dolby" fetch="https://github.com/TRIDEV099" />
 
     <!-- Device / Kernel -->
     <project path="device/realme/even" name="device_realme_even_rui4" remote="badmaneers" revision="axion" />
@@ -16,6 +17,9 @@
     <!-- Hardware -->
     <project path="hardware/oplus" name="android_hardware_oplus" remote="lineage" revision="lineage-23.2" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-23.2" />
+
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="hardware_dolby" remote="dolby" revision="16.0" />
 
     <!-- IMS -->
     <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="techyminati" revision="android-16-qpr2" />
