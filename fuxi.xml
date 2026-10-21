@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+ <remote name="gh" fetch="https://github.com/" revision="lineage-23.2" />
+ <remote name="gl" fetch="https://gitlab.com/" />
+
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-23.2"/>
+
+ <!-- Device -->
+ <project path="device/xiaomi/fuxi" name="AxionAOSP-devices/android_device_xiaomi_fuxi" remote="gh" revision="16.2"/>
+ <project path="device/xiaomi/sm8550-common" name="AxionAOSP-devices/android_device_xiaomi_sm8550-common" remote="gh" revision="17"/>
+
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/sm8550" name="LineageOS/android_kernel_xiaomi_sm8550" remote="gh"/>
+ <project path="kernel/xiaomi/sm8550-modules" name="LineageOS/android_kernel_xiaomi_sm8550-modules" remote="gh" />
+ <project path="kernel/xiaomi/sm8550-devicetrees" name="LineageOS/android_kernel_xiaomi_sm8550-devicetrees" remote="gh" />
+ 
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/fuxi" name="TheMuppets/proprietary_vendor_xiaomi_fuxi" remote="gh" />
+ <project path="vendor/xiaomi/sm8550-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8550-common" remote="gh" />
+
+ <!-- Camera -->
+ <project path="vendor/xiaomi/camera" name="AxionAOSP-devices/vendor_xiaomi_camera" remote="gh" revision="16.2" />
+ <project path="device/xiaomi/fuxi-miuicamera" name="AxionAOSP-devices/device_xiaomi_fuxi-miuicamera" remote="gh" revision="16.2" />
+ <project path="vendor/xiaomi/fuxi-miuicamera" name="AxionAOSP-devices/vendor_xiaomi_fuxi-miuicamera" remote="gh" revision="16.2" />
+
+ <!-- Custom Apps -->
+ <project path="vendor/apps/prebuilts" name="neural0x/vendor_apps_prebuilts" remote="gl" revision="main" />
+ <project path="vendor/lineage-priv" name="neural0x/vendor_lineage-priv" remote="gh" revision="main" />
+
+</manifest>
