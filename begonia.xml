@@ -2,7 +2,6 @@
 <manifest>
     <!-- Remotes -->
     <remote name="sai" fetch="https://github.com/Saikrishna1504" />
-    <remote name="bb" fetch="https://gitea.com/Saikrishna1504" />
 
     <!-- Device / Kernel -->
     <project path="device/redmi/begonia" name="device_redmi_begonia" remote="sai" revision="axion" />
@@ -19,10 +18,6 @@
     <!-- Proprietary vendor -->
     <project path="vendor/redmi/begonia" name="vendor_redmi_begonia" remote="sai" revision="bka"
         clone-depth="1" />
-    <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="sai" revision="bka"
+    <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="sai" revision="kaeru"
         clone-depth="1" />
-
-    <!-- MiuiLeica Cam -->
-    <project path="vendor/MiuiCameraLeica" name="vendor_MiuiCameraLeica"
-        remote="bb" revision="udc" clone-depth="1" />
 </manifest>
