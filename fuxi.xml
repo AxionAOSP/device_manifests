@@ -27,6 +27,4 @@
 
  <!-- Custom Apps -->
  <project path="vendor/apps/prebuilts" name="neural0x/vendor_apps_prebuilts" remote="gl" revision="main" />
- <project path="vendor/lineage-priv" name="neural0x/vendor_lineage-priv" remote="gh" revision="main" />
-
 </manifest>
